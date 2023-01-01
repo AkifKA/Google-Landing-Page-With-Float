@@ -41,19 +41,27 @@ ul li a:hover {
 }
 .header__right--appicon {
   vertical-align: middle;
+  opacity: 0.8;
+}
+
+.header__right--appicon:hover {
+  opacity: 1;
 }
 
 .header__right--button {
-  background-color: #4285f4;
+  background: #1a73e8;
+  border: #4285f4;
   width: 96px;
   height: 36px;
   border-radius: 4px;
   font-weight: 600;
+  color: white;
 }
 
 .header__right--button:hover {
   box-shadow: rgb(211, 211, 211) 3px 3px 5px;
   cursor: pointer;
+  background-color: hsl(214.08, 82%, 40%);
 }
 
 /*? MAIN */
@@ -62,8 +70,9 @@ ul li a:hover {
   text-align: center;
 }
 
-.main__search {
-}
+/* .main__search {
+  
+} */
 
 .main__logo {
   width: 272px;
@@ -97,8 +106,8 @@ ul li a:hover {
   vertical-align: middle;
 }
 
-.main__buttons {
-}
+/* .main__buttons {
+} */
 
 .main__buttons--left,
 .main__buttons--right {
@@ -133,11 +142,26 @@ ul li a:hover {
 }
 .footer__country {
   font-size: 14px;
-  padding-left: 20px;
+  padding-left: 32px;
+  border-bottom: 1px solid #dadce0;
+  opacity: 0.8;
 }
 
 .footer__bottom--left {
   float: left;
+  width: 40%;
+}
+
+.footer__center {
+  float: left;
+  opacity: 0.8;
+  padding: 1rem;
+}
+.footer__center--yaprak-img,
+.footer__center--karbon-btn {
+  vertical-align: middle;
+  margin-right: 0.3rem;
+  font-size: 14px;
 }
 
 .footer__bottom--right {
