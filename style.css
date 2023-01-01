@@ -152,16 +152,28 @@ ul li a:hover {
   width: 40%;
 }
 
-.footer__center {
+.footer__bottom--center {
   float: left;
   opacity: 0.8;
   padding: 1rem;
 }
-.footer__center--yaprak-img,
-.footer__center--karbon-btn {
+.footer__bottom--karbon-btn {
+  font-size: 14px;
+}
+
+.footer__bottom--karbon-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer__bottom--yaprak-img {
+  width: 20px;
+  height: 20px;
+}
+.footer__bottom--yaprak-img,
+.footer__bottom--karbon-btn {
   vertical-align: middle;
   margin-right: 0.3rem;
-  font-size: 14px;
 }
 
 .footer__bottom--right {
